@@ -13,7 +13,7 @@ const red = Color(0xFFFF1744);
 const blue = Colors.lightBlueAccent;
 
 /// Black & White
-const white = Colors.white;
+const white = Colors.white60;
 const grey_light = Color(0xFFe1e6e8);
 const grey = Color(0xFF898c8c);
 const charcoal_light = Color(0xFF4a4a4a);
@@ -57,132 +57,135 @@ ThemeData _buildAppTheme() {
       headline1: TextStyle(
         fontSize: 100.0,
         color: white,
-        fontWeight: FontWeight.w600,
+        fontWeight: FontWeight.w200,
       ),
       headline2: TextStyle(
         fontSize: 90.0,
         color: white,
-        fontWeight: FontWeight.bold,
+        fontWeight: FontWeight.w200,
       ),
       headline3: TextStyle(
         fontSize: 45.0,
         color: white,
-        fontWeight: FontWeight.w700,
+        fontWeight: FontWeight.w200,
       ),
       headline4: TextStyle(
         fontSize: 35.0,
         color: white,
+        fontWeight: FontWeight.w200,
       ),
       headline5: TextStyle(
         fontSize: 25.0,
         color: white,
-        fontWeight: FontWeight.w700,
+        fontWeight: FontWeight.w200,
       ),
       headline6: TextStyle(
         fontSize: 20.0,
         color: white,
-        fontWeight: FontWeight.w700,
+        fontWeight: FontWeight.w200,
       ),
       subtitle1: TextStyle(
         fontSize: 18.0,
         color: white,
-        fontWeight: FontWeight.w700,
+        fontWeight: FontWeight.w200,
       ),
       bodyText2: TextStyle(
         color: white,
-        fontWeight: FontWeight.w700,
+        fontWeight: FontWeight.w200,
       ),
       bodyText1: TextStyle(
         color: white,
-        fontWeight: FontWeight.bold,
+        fontWeight: FontWeight.w200,
       ),
     ),
     primaryTextTheme: TextTheme(
       headline1: TextStyle(
         fontSize: 100.0,
         color: cyan_1,
-        fontWeight: FontWeight.w600,
+        fontWeight: FontWeight.w200,
       ),
       headline2: TextStyle(
         fontSize: 90.0,
         color: cyan_1,
-        fontWeight: FontWeight.bold,
+        fontWeight: FontWeight.w200,
       ),
       headline3: TextStyle(
         fontSize: 45.0,
         color: cyan_1,
-        fontWeight: FontWeight.w700,
+        fontWeight: FontWeight.w200,
       ),
       headline4: TextStyle(
         fontSize: 35.0,
         color: cyan_1,
+        fontWeight: FontWeight.w200,
       ),
       headline5: TextStyle(
         fontSize: 25.0,
         color: cyan_1,
-        fontWeight: FontWeight.w700,
+        fontWeight: FontWeight.w200,
       ),
       headline6: TextStyle(
         fontSize: 20.0,
         color: cyan_1,
-        fontWeight: FontWeight.w700,
+        fontWeight: FontWeight.w200,
       ),
       subtitle1: TextStyle(
         fontSize: 18.0,
         color: cyan_1,
-        fontWeight: FontWeight.w700,
+        fontWeight: FontWeight.w200,
       ),
       bodyText2: TextStyle(
         color: cyan_1,
-        fontWeight: FontWeight.w700,
+        fontWeight: FontWeight.w200,
       ),
       bodyText1: TextStyle(
         color: cyan_1,
-        fontWeight: FontWeight.bold,
+        fontWeight: FontWeight.w200,
       ),
     ),
     accentTextTheme: TextTheme(
       headline1: TextStyle(
         fontSize: 100.0,
         color: blue,
-        fontWeight: FontWeight.w600,
+        fontWeight: FontWeight.w200,
       ),
       headline2: TextStyle(
         fontSize: 90.0,
         color: blue,
-        fontWeight: FontWeight.bold,
+        fontWeight: FontWeight.w200,
       ),
       headline3: TextStyle(
         fontSize: 45.0,
         color: blue,
-        fontWeight: FontWeight.w700,
+        fontWeight: FontWeight.w200,
       ),
       headline4: TextStyle(
         fontSize: 35.0,
         color: blue,
+        fontWeight: FontWeight.w200,
       ),
       headline5: TextStyle(
         fontSize: 25.0,
         color: blue,
-        fontWeight: FontWeight.w700,
+        fontWeight: FontWeight.w200,
       ),
       headline6: TextStyle(
         fontSize: 20.0,
         color: blue,
-        fontWeight: FontWeight.w700,
+        fontWeight: FontWeight.w200,
       ),
       subtitle1: TextStyle(
         fontSize: 18.0,
         color: blue,
-        fontWeight: FontWeight.w700,
+        fontWeight: FontWeight.w200,
       ),
       bodyText2: TextStyle(
         color: blue,
-        fontWeight: FontWeight.w700,
+        fontWeight: FontWeight.w200,
       ),
       bodyText1: TextStyle(
         color: blue,
-        fontWeight: FontWeight.bold,
+        fontWeight: FontWeight.w200,
       ),
     ),
   );
