@@ -4,7 +4,8 @@ import 'package:flutter/material.dart';
 /// Palette
 const cyan_1 = Color(0xFF00FFE8);
 const cyan_2 = Color(0xFF00C6B4);
-const cyan_3= Color(0xFF017B70);
+const cyan_3 = Color(0xFF017B70);
+const cyan_4 = Color(0x30003B35);
 
 const green = Color(0xFF00E676);
 const yellow = Colors.yellowAccent;
@@ -37,7 +38,7 @@ ThemeData _buildAppTheme() {
     accentColor: blue,
     backgroundColor: charcoal_dark,
     scaffoldBackgroundColor: charcoal_dark,
-    fontFamily: 'Quicksand',
+    // fontFamily: 'Quicksand',
     dividerTheme: DividerThemeData(
       color: grey_light,
       thickness: 2.0,
