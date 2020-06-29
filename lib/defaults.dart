@@ -32,3 +32,23 @@ const String kHostId =
 ///=======================================
 ///               LISTS
 ///=======================================
+const List kKnowledgeBaseItems = <String>[
+  'Elementary Functions',
+  'Constants',
+  'Bessel-Type Functions',
+  'Complex Components',
+  'Number Theory Functions',
+  'Generalized Functions',
+  'Integer Functions',
+  'Advanced Components',
+  'Codebase',
+];
+
+const List kProcesses = <String>[
+  'ORGANIZATION',
+  'DIALOGUE TREE',
+  'AUDITORY SYSTEMS',
+  'FUZZY LOGIC',
+  'ALGORITHMS',
+  'NEURAL NET',
+];

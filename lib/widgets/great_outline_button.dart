@@ -9,6 +9,7 @@ class GreatOutlineButton extends StatefulWidget {
   @required
   final Widget child;
   final double borderRadius;
+  final bool isSelected;
 
   const GreatOutlineButton({
     Key key,
@@ -16,6 +17,7 @@ class GreatOutlineButton extends StatefulWidget {
     this.borderWidth = 2.5,
     this.child,
     this.borderRadius = 10,
+    this.isSelected = false,
   }) : super(key: key);
 
   @override
@@ -40,14 +42,17 @@ class _GreatOutlineButtonState extends State<GreatOutlineButton> {
         onPressed: widget.onPressed,
         color: cyan_3,
         hoverColor: cyan_1,
-        textColor: _hoveringFAB ? charcoal_dark : cyan_2,
+        textColor: _hoveringFAB
+            ? charcoal_dark
+            : widget.isSelected ? Colors.white : cyan_2,
         padding: EdgeInsets.symmetric(
           horizontal: 20.0,
           vertical: 10.0,
         ),
         borderSide: BorderSide(
           width: widget.borderWidth,
-          color: cyan_2,
+          color:
+              _hoveringFAB ? cyan_1 : widget.isSelected ? Colors.white : cyan_2,
         ),
         shape: BeveledRectangleBorder(
           borderRadius: BorderRadius.only(

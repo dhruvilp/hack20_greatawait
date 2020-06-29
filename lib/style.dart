@@ -38,7 +38,7 @@ ThemeData _buildAppTheme() {
     accentColor: blue,
     backgroundColor: charcoal_dark,
     scaffoldBackgroundColor: charcoal_dark,
-    // fontFamily: 'Quicksand',
+    fontFamily: 'Quicksand',
     dividerTheme: DividerThemeData(
       color: grey_light,
       thickness: 2.0,

@@ -34,6 +34,7 @@ Widget kAppBar(BuildContext context) {
             GreatOutlineButton(
               onPressed: () {},
               child: Text('CODE'),
+              isSelected: true,
             ),
             GreatOutlineButton(
               onPressed: () {},
