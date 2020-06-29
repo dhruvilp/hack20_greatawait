@@ -1,8 +1,18 @@
-# hack20_greatawait
+# Great Await (#hack20)
 
 Futuristic UI Build With Flutter+Dart
 
-## Getting Started
+Live @ https://greatawait.vercel.app/
+
+
+## Screenshots
+
+<img align="center" src="screenshots/great_await_1.png" height="500em" />
+
+<img align="center" src="screenshots/great_await_2.png" height="500em" />
+
+
+## Getting Started with Flutter
 
 This project is a starting point for a Flutter application.
 
