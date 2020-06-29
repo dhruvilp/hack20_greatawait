@@ -21,6 +21,7 @@ Widget kAppBar(BuildContext context) {
               child: Text(
                 'GREAT AWAIT',
                 style: TextStyle(
+                  fontWeight: FontWeight.w700,
                   color: Theme.of(context).backgroundColor,
                 ),
               ),
