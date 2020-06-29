@@ -42,7 +42,6 @@ class _GreatCardTileState extends State<GreatCardTile> {
           color: isExpanded ? black : white,
         ),
         onExpansionChanged: (value) {
-          print(value);
           setState(() {
             isExpanded = value;
           });
@@ -60,10 +59,7 @@ class _GreatCardTileState extends State<GreatCardTile> {
                 ),
                 shape: BeveledRectangleBorder(
                   borderRadius: BorderRadius.only(
-                    bottomRight: Radius.elliptical(
-                      10,
-                      10,
-                    ),
+                    bottomRight: Radius.elliptical(10, 10),
                   ),
                 ),
                 onPressed: null,
@@ -78,7 +74,7 @@ class _GreatCardTileState extends State<GreatCardTile> {
                             size: 30,
                             color: white,
                           ),
-                          Text('FORWARD CHAUN',
+                          Text('FORWARD CHAIN',
                               style: Theme.of(context).textTheme.subtitle2),
                         ],
                       ),

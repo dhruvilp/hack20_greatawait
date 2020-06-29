@@ -17,18 +17,18 @@ class ConfigCard extends StatelessWidget {
           Flexible(
             child: Align(
               alignment: Alignment.centerLeft,
-              child: _knowledgeBase(context),
+              child: knowledgeBase(context),
             ),
           ),
           Flexible(
             child: Column(
               children: [
                 Flexible(
-                  child: _inferenceEngine(context, true),
+                  child: inferenceEngine(context, true),
                 ),
                 SizedBox(height: 15.0),
                 Flexible(
-                  child: _inferenceEngine(context, false),
+                  child: inferenceEngine(context, false),
                 ),
               ],
             ),
@@ -45,7 +45,7 @@ class ConfigCard extends StatelessWidget {
   }
 }
 
-Widget _knowledgeBase(BuildContext context) {
+Widget knowledgeBase(BuildContext context) {
   return GreatCard(
     borderRadius: 20.0,
     child: Column(
@@ -138,7 +138,7 @@ Widget _knowledgeBase(BuildContext context) {
   );
 }
 
-Widget _inferenceEngine(BuildContext context, bool isForwardChaining) {
+Widget inferenceEngine(BuildContext context, bool isForwardChaining) {
   return GreatCard(
     borderRadius: 10.0,
     child: Column(
