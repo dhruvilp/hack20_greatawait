@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hack20_greatawait/widgets/GreatCardBottom.dart';
 import 'package:hack20_greatawait/widgets/app_bar.dart';
 import 'package:hack20_greatawait/widgets/great_card.dart';
 
@@ -55,7 +56,7 @@ class _WebLayoutState extends State<WebLayout> {
               child: GreatCard(
                 borderRadius: 25.0,
                 child: Center(
-                  child: Text('Bottom Box'),
+                  child: GreatCardBottom(),
                 ),
               ),
             ),
